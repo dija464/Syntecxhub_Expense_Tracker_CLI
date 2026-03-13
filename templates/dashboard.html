@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Dashboard</title>
+
+<link rel="stylesheet" href="/static/style.css">
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+</head>
+
+<body>
+
+<h1>Expense Tracker Dashboard</h1>
+
+<div class="cards">
+
+<div class="card">
+<h3>Income</h3>
+<p id="income"></p>
+</div>
+
+<div class="card">
+<h3>Expense</h3>
+<p id="expense"></p>
+</div>
+
+<div class="card">
+<h3>Balance</h3>
+<p id="balance"></p>
+</div>
+
+</div>
+
+<div class="form">
+
+<input type="date" id="date">
+
+<select id="type">
+<option>income</option>
+<option>expense</option>
+</select>
+
+<input id="category" placeholder="category">
+
+<input id="amount" placeholder="amount">
+
+<button onclick="addTransaction()">Add</button>
+
+<button onclick="exportExcel()">Export Excel</button>
+
+</div>
+
+<canvas id="chart"></canvas>
+
+<script src="/static/script.js"></script>
+
+</body>
+
+</html>
