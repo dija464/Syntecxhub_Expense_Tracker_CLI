@@ -1,4 +1,4 @@
-📊 Expense Tracker Pro
+📊 Expense Tracker CLI
 
 A full-stack expense tracking web application built with Python (Flask), HTML, CSS, and JavaScript that allows users to manage income and expenses, visualize financial data, and export reports.
 This project demonstrates backend development, database integration, API communication, and responsive frontend design.
@@ -66,8 +66,8 @@ expense-tracker-pro
 
 ⚙️ Installation
 1️⃣ Clone the Repository
-git clone https://github.com/yourusername/expense-tracker-pro.git
-cd expense-tracker-pro
+git clone https://github.com/yourusername/expense-tracker-cli.git
+cd expense-tracker-cli
 2️⃣ Install Dependencies
 pip install -r requirements.txt
 3️⃣ Run the Application
